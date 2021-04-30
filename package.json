@@ -1,0 +1,16 @@
+{
+  "name": "js-regression",
+  "version": "1.0.0",
+  "description": "Simple Javascript regression for data in CSV",
+  "main": "regression.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node regression.js"
+  },
+  "author": "Zachary Onisick",
+  "license": "ISC",
+  "dependencies": {
+    "mathjs": "^9.3.2",
+    "papaparse": "file:papaparse"
+  }
+}
